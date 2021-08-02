@@ -1,9 +1,9 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
-    cout << "Hello World!" << endl;
+    std::string temp;
+    std::cout << "Hello World!" << std::endl;
+    cin >> temp;
     return 0;
 }
